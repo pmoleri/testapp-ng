@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
   templateUrl: './master-view.component.html',
   styleUrls: ['./master-view.component.scss']
 })
-export class MasterViewComponent {}
+export class MasterViewComponent {
+}
