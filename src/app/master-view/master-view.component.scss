@@ -5,3 +5,25 @@
   align-items: stretch;
   align-content: flex-start;
 }
+.image {
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  background-image: url("/assets/Logo.svg");
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  width: 482px;
+  height: 929px;
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 482px;
+  max-height: 929px;
+}
